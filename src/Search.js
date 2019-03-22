@@ -19,7 +19,7 @@ class Search extends React.Component {
 
     render () {
         // Simple query/result interface. Height refers to the number of lines the element will take up in the console.
-        // onSubmit is called when the enter buttton is pressed and onChange is called after every key press.
+        // onSubmit is called when the enter button is pressed and onChange is called after every key press.
         return (
           <Box height={2} flexDirection="column">
               <Box>
