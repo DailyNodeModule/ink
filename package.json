@@ -1,0 +1,23 @@
+{
+  "name": "@dailynodemodule/ink",
+  "version": "1.0.0",
+  "description": "This project is a sample project for ink",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dailynodemodule/ink"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Zachary Boyd <zachary@dailynodemodule.com>",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "import-jsx": "^2.0.0",
+    "ink": "^2.0.6",
+    "ink-text-input": "git+https://github.com/vadimdemedes/ink-text-input.git",
+    "react": "^16.8.4",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  }
+}
